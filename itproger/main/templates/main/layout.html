@@ -10,13 +10,24 @@
 
     {% load static %}
     <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
 </head>
 <body>
-
+    <aside>
+        <img src="{% static 'main/img/filter_64.png' %}" alt="logo">
+        <span class="logo">Hydarulic filter</span>
+        <h3>Navigation</h3>
+        <ul>
+            <a href=""><li>Main</li></a>
+            <a href=""><li><i class="fa-solid fa-address-card"></i>  About company</li></a>
+            <a href=""><li><i class="fa-solid fa-address-card"></i>  Contacts</li></a>
+        </ul>
+    </aside>
+    <main>
     {% block content %}
-
     {% endblock %}
-
+    </main>
 </body>
 </html>
