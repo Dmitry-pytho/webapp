@@ -1,13 +1,14 @@
 {% extends 'main/layout.html' %}
 
-{% block title %}Main page{% endblock %}
+{% block title %}{{ title }}{% endblock %}
 
 {% block content %}
 <div class="features">
-<h1>Main page</h1>
+<h1>{{ title }}</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, at blanditiis consequuntur dolor doloribus
         eligendi eveniet illum minus modi odit perspiciatis quas ullam, voluptas. Adipisci consectetur cumque iure
         ratione similique?</p>
-    <button class="btn btn-warning">On page about us</button>
+    <button class="btn btn-warning">To page about us</button>
+
 </div>
 {% endblock %}
