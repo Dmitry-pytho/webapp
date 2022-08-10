@@ -56,8 +56,8 @@ main .features {
     width: 75%;
 }
 
-main .features h1 {font-size: 50px;}
-main .features p {max-width: 400px; margin: 20px auto}
+main .features h1 {font-size: 50px; margin-top: -50px;}
+main .features p {max-width: 500px; margin: 20px auto;}
 
 .alert-warning {
     float: left;
@@ -67,8 +67,11 @@ main .features p {max-width: 400px; margin: 20px auto}
     text-align: left;
 }
 
+
 form {
     margin-left: 32%;
-    width: 500px;
-    margin-top: 50px;
+    width: 550px;
+    margin-top: 10px;
 }
+
+
