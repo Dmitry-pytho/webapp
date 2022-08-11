@@ -31,6 +31,11 @@ aside h3 {
     font-size: 30px;
 }
 
+aside a {
+    text-decoration: none;
+}
+
+
 aside ul {
     list-style: none;
 }
@@ -47,6 +52,8 @@ aside ul li:hover, aside ul a:hover {
     text-decoration: none;
     transform: scale(1.05);
 }
+
+
 
 main .features {
     float: left;
