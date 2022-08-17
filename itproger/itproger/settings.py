@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'select_filter',
     'bootstrap3',
     'main',
     'news',
